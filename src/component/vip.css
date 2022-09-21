@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navtop {
+  width: 25%;
+  height: 100%;
+}
+
+.navtopcontent {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(174, 174, 206);
+}
+.navtopright {
+  display: flex;
+  justify-content: space-between;
+}
+.navtopmessage {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.searchbar {
+  width: 100%;
+  padding: 10px;
+
+  background-color: white;
+}
+.searchbarinput {
+  width: 100%;
+}
+
+.searchbarinputtype {
+  border-radius: 15px;
+  width: 100%;
+  padding: 5px;
+  background-color: rgb(248, 255, 254);
+}
+.userlist {
+  width: 100%;
+  height: 100%;
+}
+.userlistbox {
+  padding: 2px;
+}
+
+/*user*/
+
+.Userchatbox {
+  width: 73%;
+  float: right;
+  position: relative;
+  bottom: 122px;
+
+  background-color: rgb(229, 229, 238);
+}
+.Userchatboxnav {
+  padding: 15px;
+}
+.Userchatboxnavcontent {
+  display: flex;
+  justify-content: space-between;
+}
+.Userchatboxnavleft {
+  display: flex;
+  justify-content: space-between;
+}
+.Userchatboxnavright {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.Userchatboxnavlinkfile {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.Userchatboxusername {
+  margin-left: 25px;
+}
+
+.reacticon {
+  font-size: 20px;
+}
+
+.reacticonprofile {
+  font-size: 30px;
+}
+
+.userchatmiddlebox {
+  height: 80vh;
+  background-color: lightblue;
+}
+.userchatmiddleboxcontent {
+  display: flex;
+}
+
+.sendchatbox {
+  padding: 2px;
+  width: 100%;
+}
+.sendchatboxcontent {
+  display: flex;
+}
+.sendchatboxemoji {
+  padding: 15px;
+  font-size: 25px;
+}
+.sendchattypebox {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.sendchattype {
+  padding: 5px;
+}
+.sendchatboxmic {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.chattext {
+  width: 55vw;
+  padding: 15px;
+  border-radius: 25px;
+}
